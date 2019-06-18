@@ -24,7 +24,7 @@ namespace StarWarsProject.Domain
         /// <param name="url">Url to API endpoint</param>
         /// <returns></returns>
         public static JObject GetStarshipList(string url)
-        {
+        {            
             httpClient = new HttpClient();
 
             var response = httpClient.GetAsync(url);
