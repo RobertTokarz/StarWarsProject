@@ -9,6 +9,7 @@ namespace StarWarsProject.View
 {
     public class StarshipView
     {
+
         /// <summary>
         /// Little bit artificial View functionality - just to separate Main method from program functionality.
         /// </summary>
